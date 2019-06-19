@@ -4,7 +4,7 @@ Concise Binary Object Representation (CBOR, RFC 7049) extends the
 JavaScript Object Notation (JSON, RFC 7159) data interchange format to
 include binary data and an extensibility model, using a binary
 representation format that is easy to parse correctly. It has been
-picked up by a number of IETF efforts (e.g., CORE, ANIMA GRASP) as a
+picked up by a number of IETF efforts as a
 message format.
 
 The CBOR working group will update RFC 7049 to fix verified errata.
@@ -22,7 +22,7 @@ CBOR-encoded messages. The Concise Data Definition Language (CDDL)
 is such a description technique that has already been used in CORE, ANIMA,
 CDNI, and efforts outside the IETF.
 
-CDDL has been published as RFC XXXX.  While this
+CDDL has been published as RFC 8610.  While this
 specification has been completed, several new features were raised
 during the update process that were not included,
 in order not to delay publication, and to allow publication in the
@@ -44,28 +44,28 @@ guidance for developers using CBOR and CDDL.  It is currently expected
 that this would be done using a Wiki of some type.  This work would
 not be expected to be published by the IETF.
 
-There are a number of additional CBOR tagged types that are either currently
+There are a number of additional CBOR tagged types and media type specifications that are either currently
 adopted by the working group, by other working groups, or as individual submissions.
 Additionally, there are expected to be other such documents that will come
 to the attention of the working group.  In some cases, the working group
 expects to adopt and publish these proposals.
 
-The working group will evaluate and place proposals in one of the following
+The working group will evaluate and place such proposals in one of the following
 categories using a dispatch like process:
 
-* General purpose tagged types that are expected to have broad usage:  The
+* General purpose specifications that are expected to have broad usage:  The
   working group will normally adopt and publish such proposals.  Examples of
-  proposals in this category are CBOR Sequence (draft-bormann-cbor-sequence)
-  and Error Indications (draft-richter-cbor-error-tag).
+  proposals in this category are the CBOR Sequence media type (draft-bormann-cbor-sequence)
+  and the Error Indications tag (draft-richter-cbor-error-tag).
 
-* Internet wide specific purpose tagged types:  The working group may decide
+* Internet wide specifications:  The working group may decide
   to adopt these proposals, but typically it would just provide input and
   recommend that they be published either as an Independent Submission
   or by a different working group.
 
-* Narrow purpose tagged types:  The working group may provide evaluation of
+* Narrow purpose specifications:  The working group may provide evaluation of
   such proposals, but typically would not support Working Group adoption, and could
   recommend publication in a different forum. An example of this might be 
   portions of draft-bormann-cbor-tags-oid dealing with some of the more 
-  esoteric types such as regular expressions
+  esoteric types such as regular expressions.
 
