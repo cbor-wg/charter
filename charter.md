@@ -4,10 +4,10 @@ data and an extensibility model, using a binary representation format that
 is easy to parse correctly. It has been picked up by a number of IETF
 efforts (e.g., CORE, ANIMA GRASP) as a message format.
 
-The CBOR working group will update RFC 7049 to fix verified errata. Security
+The CBOR working group will update RFC 7049 to deal with existing errata. Security
 issues and clarifications may be addressed, but changes to the document will
 ensure backward compatibility for popular deployed codebases. The resulting
-document will be targeted at becoming a Full Internet Standard. After that,
+document will be targeted at becoming a Internet Standard. After that,
 the CBOR working group will monitor issues found with the CBOR specification
 and, if needed, will produce an updated document.
 
@@ -22,11 +22,11 @@ CDDL has been published as RFC 8610. While this specification has been
 completed, several new features were raised during the update process that
 were not included, in order not to delay publication, and to allow
 publication in the Standards Track. One example of such a feature is the
-ability to combine multiple CDDL files together using a mechanism other that
+ability to combine multiple CDDL files together using a mechanism other than
 manually concatenating them together for processing. The working group will
 collect these features as well as other features that are raised by users of
 CDDL, evaluate their utility and add to a second edition of the
-specification if warranted.
+specification as warranted.
 
 The working group will define the approach to further evolving CDDL as a
 sequence of editions, which might also add further extension points,
@@ -40,27 +40,26 @@ this would be done using a Wiki of some type. This work would not be
 expected to be published by the IETF.
 
 There are a number of additional CBOR tagged types and CBOR related media type
-specifications that are either currently
-adopted by the working group, by other working groups, or as individual
+specifications that are currently
+adopted by the working group, are work items in other working groups, or exist as individual
 submissions. Additionally, there are expected to be other such documents
 that will come to the attention of the working group. In some cases, the
 working group expects to adopt and publish these proposals.
-
 The working group will evaluate and place such proposals in one of the following
 categories using a DISPATCH like process:
 
 *   General purpose specifications that are expected to have broad usage: The
-working group will normally adopt and publish such proposals. Examples of
-proposals in this category are CBOR Sequence media type (draft-bormann-cbor-sequence)
-and Error Indications tag (draft-richter-cbor-error-tag).
+    working group will normally adopt and publish such proposals. Examples of
+    proposals in this category are CBOR Sequence media type (draft-bormann-cbor-sequence)
+    and Error Indications tag (draft-richter-cbor-error-tag).
 
-*   Internet wide specifications: The working group may
-decide to adopt these proposals, but typically it would just provide input
-and recommend that they be published either as an Independent Submission or
-by a different working group.
+*   Internet-wide specifications: The working group may
+    decide to adopt these proposals, but typically it would just provide input
+    and recommend that they be published either as an Independent Submission or
+    by a different working group.
 
 *   Narrow purpose specifications: The working group may provide evaluation
-of such proposals, but typically would not support Working Group adoption,
-and could recommend publication in a different forum. An example of this
-might be portions of draft-bormann-cbor-tags-oid dealing with some of the
-more esoteric types such as regular expressions.
+    of such proposals, but typically would not support Working Group adoption,
+    and could recommend publication in a different forum. An example of this
+    might be portions of draft-bormann-cbor-tags-oid dealing with some of the
+    more esoteric types such as regular expressions.
