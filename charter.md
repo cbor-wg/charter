@@ -35,7 +35,7 @@ considered precious, and the WG will set out not to damage their value.
 The working group will evaluate the necessity of providing advice and
 guidance for developers using CBOR and CDDL. It is currently expected that
 this would be done using a Wiki of some type. This work would not be
-expected to be published by the IETF.
+expected to be published by the IETF as an RFC.
 
 There are a number of additional CBOR tagged types and CBOR related media type
 specifications that are currently adopted by the working group, 
