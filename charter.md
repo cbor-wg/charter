@@ -1,4 +1,4 @@
-Concise Binary Object Representation (CBOR, RFC 7049) extends the JavaScript
+Concise Binary Object Representation (CBOR, RFC 8259) extends the JavaScript
 Object Notation (JSON, RFC 7159) data interchange format to include binary
 data and an extensibility model, using a binary representation format that
 is easy to parse correctly. It has been picked up by a number of IETF
@@ -45,21 +45,9 @@ adopted by the working group, are work items in other working groups, or exist a
 submissions. Additionally, there are expected to be other such documents
 that will come to the attention of the working group. In some cases, the
 working group expects to adopt and publish these proposals.
-The working group will evaluate and place such proposals in one of the following
-categories using a DISPATCH like process:
-
-*   General purpose specifications that are expected to have broad usage: The
-    working group will normally adopt and publish such proposals. Examples of
-    proposals in this category are CBOR Sequence media type (draft-bormann-cbor-sequence)
-    and Error Indications tag (draft-richter-cbor-error-tag).
-
-*   Internet-wide specifications: The working group may
-    decide to adopt these proposals, but typically it would just provide input
-    and recommend that they be published either as an Independent Submission or
-    by a different working group.
-
-*   Narrow purpose specifications: The working group may provide evaluation
-    of such proposals, but typically would not support Working Group adoption,
-    and could recommend publication in a different forum. An example of this
-    might be portions of draft-bormann-cbor-tags-oid dealing with some of the
-    more esoteric types such as regular expressions.
+The working group will evaluate such proposal individually and decide about 
+addition of a respective milestone. Proposals that are deemed to be out of 
+scope for the working group, e.g. because they are too narrow purpose 
+specifications, may still be published as individual submission or in another 
+groups if there is a specific need. The CBOR group will review these proposals 
+on request.
