@@ -6,7 +6,7 @@ efforts (e.g., CORE, ANIMA GRASP) as a message format.
 
 The CBOR working group will update RFC 7049 to deal with existing errata. Security
 issues and clarifications may be addressed, but changes to the document will
-ensure backward compatibility for popular deployed codebases. The resulting
+ensure backward compatibility for widespread deployed codebases. The resulting
 document will be targeted at becoming an Internet Standard.
 
 Similar to the way ABNF (RFC 5234/7405) can be used to describe the set of
