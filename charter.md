@@ -1,5 +1,5 @@
-Concise Binary Object Representation (CBOR, RFC 8259) extends the JavaScript
-Object Notation (JSON, RFC 7159) data interchange format to include binary
+Concise Binary Object Representation (CBOR, RFC 7049) extends the JavaScript
+Object Notation (JSON, RFC 8259) data interchange format to include binary
 data and an extensibility model, using a binary representation format that
 is easy to parse correctly. It has been picked up by a number of IETF
 efforts (e.g., CORE, ANIMA GRASP) as a message format.
