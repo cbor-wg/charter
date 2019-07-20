@@ -43,8 +43,8 @@ are work items in other working groups, or exist as individual
 submissions. Additionally, there are expected to be other such documents
 that will come to the attention of the working group. In some cases, the
 working group expects to adopt and publish these proposals.
-The working group will evaluate such proposal individually and decide about 
-addition of a respective milestone. Proposals that are deemed to be out of 
+The working group will evaluate such proposals individually and decide about 
+ adoption and milestones in that event. Proposals that are deemed to be out of 
 scope for the working group, e.g. because they are too narrow purpose 
 specifications, may still be published as individual submission or in another 
 groups if there is a specific need. The CBOR group will review these proposals 
