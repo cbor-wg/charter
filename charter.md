@@ -4,10 +4,10 @@ data and an extensibility model, using a binary representation format that
 is easy to parse correctly. It has been picked up by a number of IETF
 efforts (e.g., CORE, ANIMA GRASP) as a message format.
 
-The CBOR working group will update RFC 7049 to deal with existing errata. Security
-issues and clarifications may be addressed, but changes to the document will
-ensure backward compatibility for widespread deployed codebases. The resulting
-document will be targeted at becoming an Internet Standard.
+The CBOR working group will update RFC 7049 to deal with existing errata.
+Security issues and clarifications may be addressed, but changes to the document
+will ensure backward compatibility for widespread deployed codebases. The
+resulting document will be targeted at becoming an Internet Standard.
 
 Similar to the way ABNF (RFC 5234/7405) can be used to describe the set of
 valid messages in a text representation, it is useful for protocol
@@ -23,8 +23,8 @@ publication in the Standards Track. One example of such a feature is the
 ability to combine multiple CDDL files together using a mechanism other than
 manually concatenating them together for processing. The working group will
 collect these features as well as other features that are raised by users of
-CDDL, evaluate their utility and add to a second edition of the
-specification where warranted.
+CDDL, evaluate their utility and, where warranted, progress them either in a
+standalone document or as part of a second edition of the specification.
 
 The working group will define the approach to further evolving CDDL as a
 sequence of editions, which might also add further extension points,
@@ -37,15 +37,15 @@ guidance for developers using CBOR and CDDL. It is currently expected that
 this would be done using a Wiki of some type. This work would not be
 expected to be published by the IETF as an RFC.
 
-There are a number of additional CBOR tagged types and CBOR related media type
-specifications that are currently adopted by the working group, 
+There are a number of additional CBOR tagged types and CBOR related media
+type specifications that are currently adopted by the working group,
 are work items in other working groups, or exist as individual
 submissions. Additionally, there are expected to be other such documents
 that will come to the attention of the working group. In some cases, the
-working group expects to adopt and publish these proposals.
-The working group will evaluate such proposals individually and decide about 
- adoption and milestones in that event. Proposals that are deemed to be out of 
-scope for the working group, e.g. because they are too narrow purpose 
-specifications, may still be published as individual submission or in another 
-groups if there is a specific need. The CBOR group will review these proposals 
-on request.
+working group will be asked to adopt and publish these proposals.
+The working group will evaluate such requests individually and decide about
+adoption and milestones as such requests arise. Proposals that are deemed to be out
+of scope for the working group, for example because they are too narrow-purpose
+of a specification, may still be published as individual submissions or in
+other groups if there is a specific need. The CBOR group will review these
+proposals on request.
